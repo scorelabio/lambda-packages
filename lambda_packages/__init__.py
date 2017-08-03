@@ -65,9 +65,16 @@ lambda_packages = {
     },
     'numpy': {
         'python2.7': {
-            'version': '1.10.4',
+            'version': '1.13.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'numpy', 'python2.7-numpy-1.10.4.tar.gz')
+                                 'numpy', 'python2.7-numpy-1.13.0.tar.gz')
+        }
+    },
+    'pandas': {
+        'python2.7': {
+            'version': '0.20.2',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'pandas', 'python2.7-pandas-0.20.2.tar.gz')
         }
     },
     'Pillow': {
@@ -122,6 +129,13 @@ lambda_packages = {
             'version': '0.12.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'python-Levenshtein', 'python2.7-python-Levenshtein-0.12.0.tar.gz'),
+        }
+    },
+    'scipy': {
+        'python2.7': {
+            'version': '0.19.1',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'scipy', 'python2.7-scipy-0.19.1.tar.gz')
         }
     },
     'regex': {
