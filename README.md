@@ -55,6 +55,14 @@ print lambda_packages['psycopg2']
 #}
 ```
 
+## Compiling libraries
+
+`pip install --use-wheel --no-binary :all: --target . SOME_LIBRARY`
+
+`tar -cvzf python2.7-SOME_LIBRARY-VERSION.tar.gz LIBRARY_FOLDERS`
+
+Commit the `.tar.gz` file to the repo.
+
 ## Contributing
 
 To add support for more packages, send a pull request containing a gzipped tarball of the package (built on Amazon Linux and tested on AWS Lambda) in the appropriate directory, an updated manifest, and deterministic build instructions for creating the archive.
