@@ -133,9 +133,9 @@ lambda_packages = {
     },
     'scikit-learn': {
         'python2.7': {
-            'version': '0.18.2',
+            'version': '0.19.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'scikit-learn', 'python2.7-scikit-learn-0.18.2.tar.gz')
+                                 'scikit-learn', 'python2.7-scikit-learn-0.19.0.tar.gz')
         }
     },
     'scipy': {
