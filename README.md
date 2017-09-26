@@ -63,6 +63,10 @@ print lambda_packages['psycopg2']
 
 Commit the `.tar.gz` file to the repo.
 
+Alternately, use the Docker builder:
+
+`docker run --volume $(pwd):/outputs --interactive --tty amazonlinux /bin/bash /outputs/build.sh`
+
 ## Contributing
 
 To add support for more packages, send a pull request containing a gzipped tarball of the package (built on Amazon Linux and tested on AWS Lambda) in the appropriate directory, an updated manifest, and deterministic build instructions for creating the archive.
