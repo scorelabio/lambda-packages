@@ -68,6 +68,11 @@ lambda_packages = {
             'version': '1.13.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'numpy', 'python2.7-numpy-1.13.0.tar.gz')
+        },
+        'python3.6': {
+            'version': '1.14.1',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'numpy', 'python3.6-numpy-1.14.1.tar.gz')
         }
     },
     'pandas': {
@@ -75,6 +80,11 @@ lambda_packages = {
             'version': '0.20.2',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'pandas', 'python2.7-pandas-0.20.2.tar.gz')
+        },
+        'python3.6': {
+            'version': '0.22.0',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'pandas', 'python3.6-pandas-0.22.0.tar.gz')
         }
     },
     'Pillow': {
