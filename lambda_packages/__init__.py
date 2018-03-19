@@ -158,6 +158,11 @@ lambda_packages = {
             'version': '0.19.1',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'scipy', 'python2.7-scipy-0.19.1.tar.gz')
+        },
+        'python3.6': {
+            'version': '1.0.0',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'scipy', 'python3.6-scipy-1.0.0.tar.gz')
         }
     },
     'regex': {
