@@ -70,9 +70,9 @@ lambda_packages = {
                                  'numpy', 'python2.7-numpy-1.13.0.tar.gz')
         },
         'python3.6': {
-            'version': '1.14.1',
+            'version': '1.14.2',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'numpy', 'python3.6-numpy-1.14.1.tar.gz')
+                                 'numpy', 'python3.6-numpy-1.14.2.tar.gz')
         }
     },
     'pandas': {
