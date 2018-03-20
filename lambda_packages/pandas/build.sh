@@ -1,6 +1,6 @@
 BUILD_DIR=build
 # NB: numpy has to be build along with pandas for proper linkage between libraries
-pip install --target $BUILD_DIR --no-binary :all: pandas
+pip-3.6 install --target $BUILD_DIR --no-binary :all: pandas
 cd $BUILD_DIR
 # Compress binaries
 du -sh pandas
