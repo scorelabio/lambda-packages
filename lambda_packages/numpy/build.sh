@@ -1,13 +1,13 @@
 BUILD_DIR=build
 pip-3.6 install --target $BUILD_DIR --no-binary numpy numpy
 cd $BUILD_DIR
-# Copy BLAS/LAPACK binaries
-mkdir -p lib
-cp /usr/lib64/atlas/* lib
-cp /usr/lib64/libquadmath.so.0 lib
-cp /usr/lib64/libgfortran.so.3 lib
+# Copy BLAS/LAPACK binaries (disabled)
+#mkdir -p lib
+#cp /usr/lib64/atlas/* lib
+#cp /usr/lib64/libquadmath.so.0 lib
+#cp /usr/lib64/libgfortran.so.3 lib
 # Compress binaries
-du -sh *
+#du -sh *
 find . -name "*.so"|xargs strip
 du -sh *
 # Create archive
