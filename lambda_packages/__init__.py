@@ -70,9 +70,9 @@ lambda_packages = {
                                  'numpy', 'python2.7-numpy-1.13.0.tar.gz')
         },
         'python3.6': {
-            'version': '1.14.2',
+            'version': '1.15.4',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'numpy', 'python3.6-numpy-1.14.2.tar.gz')
+                                 'numpy', 'python3.6-numpy-1.15.4.tar.gz')
         }
     },
     'pandas': {
@@ -82,9 +82,9 @@ lambda_packages = {
                                  'pandas', 'python2.7-pandas-0.20.2.tar.gz')
         },
         'python3.6': {
-            'version': '0.22.0',
+            'version': '0.23.4',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'pandas', 'python3.6-pandas-0.22.0.tar.gz')
+                                 'pandas', 'python3.6-pandas-0.23.4.tar.gz')
         }
     },
     'Pillow': {
@@ -160,9 +160,9 @@ lambda_packages = {
                                  'scipy', 'python2.7-scipy-0.19.1.tar.gz')
         },
         'python3.6': {
-            'version': '1.0.0',
+            'version': '1.1.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'scipy', 'python3.6-scipy-1.0.0.tar.gz')
+                                 'scipy', 'python3.6-scipy-1.1.0.tar.gz')
         }
     },
     'regex': {
