@@ -6,11 +6,11 @@ sudo yum install -y \
     blas-devel \
     gcc \
     gcc-c++ \
-    lapack-devel \
-    python27-devel \
-    python27-virtualenv \
-    findutils \
-    zip
+    lapack-devel #\
+    #python27-devel \
+    #python27-virtualenv \
+    #findutils \
+    #zip
 # Create a virtualenv
 python3 -m virtualenv venv
 source venv/bin/activate
@@ -26,7 +26,7 @@ cp /usr/lib64/libgfortran.so.3 lib
 # Compress binaries
 find lib scipy -name "*.so"|xargs strip
 # Create archive
-tar -czvf python3.6-scipy-1.0.0.tar.gz lib scipy
+tar -czvf python3.6-scipy-1.1.0.tar.gz lib scipy
 # Remove artifacts
 deactivate
 rm -r venv lib scipy*

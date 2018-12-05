@@ -7,7 +7,7 @@ du -sh pandas
 find pandas -name "*.so"|xargs strip
 du -sh pandas
 # Create archive
-tar -czvf ../python3.6-pandas-0.22.0.tar.gz pandas
+tar -czvf ../python3.6-pandas-0.23.4.tar.gz pandas
 # Check version
 python3 -c "import pandas;print(pandas.__version__)"
 # Remove artifacts
