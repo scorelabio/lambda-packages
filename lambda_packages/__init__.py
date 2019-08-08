@@ -148,9 +148,9 @@ lambda_packages = {
                                  'scikit-learn', 'python2.7-scikit-learn-0.19.0.tar.gz')
         },
         'python3.6': {
-            'version': '0.19.1',
+            'version': '0.20.3',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                'scikit-learn', 'python3.6-scikit-learn-0.19.1.tar.gz')
+                                'scikit-learn', 'python3.6-scikit-learn-0.20.3.tar.gz')
         },
     },
     'scipy': {
@@ -160,9 +160,9 @@ lambda_packages = {
                                  'scipy', 'python2.7-scipy-0.19.1.tar.gz')
         },
         'python3.6': {
-            'version': '1.1.0',
+            'version': '1.3.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'scipy', 'python3.6-scipy-1.1.0.tar.gz')
+                                 'scipy', 'python3.6-scipy-1.3.0.tar.gz')
         }
     },
     'regex': {
