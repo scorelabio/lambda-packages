@@ -92,13 +92,18 @@ lambda_packages = {
             'version': '3.4.2',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'Pillow', 'python2.7-Pillow-3.4.2.tar.gz')
-        }
+        },
     },
     'psycopg2': {
         'python2.7': {
             'version': '2.6.1',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'psycopg2', 'python2.7-psycopg2-2.6.1.tar.gz')
+        },
+        'python3.6': {
+            'version': '2.7.4',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                     'psycopg2', 'python3.6-psycopg2-2.7.4.tar.gz')
         }
     },
     'pycrypto': {
@@ -170,6 +175,13 @@ lambda_packages = {
             'version': '2016.8.27',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'regex', 'python2.7-regex-2016.8.27.tar.gz')
+        }
+    },
+    'reportlab': {
+        'python3.6': {
+            'version': '3.5.49',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'reportlab', 'python3.6-reportlab-3.5.49.tar.gz')
         }
     },
     'xmlsec': {
