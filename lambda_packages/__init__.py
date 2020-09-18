@@ -92,7 +92,7 @@ lambda_packages = {
             'version': '3.4.2',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'Pillow', 'python2.7-Pillow-3.4.2.tar.gz')
-        },
+        }
     },
     'psycopg2': {
         'python2.7': {
