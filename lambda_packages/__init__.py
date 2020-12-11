@@ -150,9 +150,16 @@ lambda_packages = {
         'python2.7': {
             'version': '0.12.0',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'python-Levenshtein', 'python2.7-python-Levenshtein-0.12.0.tar.gz'),
+                                 'python-Levenshtein', 'python2.7-python-Levenshtein-0.12.0.tar.gz')
         }
     },
+    'PyYAML': {
+        'python3.6': {
+            'version': '3.13',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'PyYAML', 'python3.6-PyYAML-3.13.tar.gz')
+        }
+    }
     'scikit-learn': {
         'python2.7': {
             'version': '0.19.0',
