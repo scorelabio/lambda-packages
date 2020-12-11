@@ -7,7 +7,7 @@ from setuptools import setup
 # Set external files
 try:
     from pypandoc import convert
-    README = convert('README.md', 'rst')	 
+    README = convert('README.md', 'rst')
 except ImportError:
     README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
@@ -16,7 +16,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='lambda_packages',
-    version='0.16.1',
+    version='0.20.0',
     packages=['lambda_packages'],
     include_package_data=True,
     license='MIT License',
